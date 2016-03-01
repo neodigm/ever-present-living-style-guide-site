@@ -2,17 +2,14 @@
 	<head>
 	</head>
 	<body>
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.3/css/foundation.min.css" type="text/css" media="all" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.3/css/foundation.min.css" type="text/css" media="all" />
+		<link href='https://fonts.googleapis.com/css?family=Roboto+Slab|Architects+Daughter|Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
 <!--
 jquery
 zf5
 webfonts: roboto slab, opensans, arc daughter
 scroller
 svg filler an
-
-
-
-
 -->
 		<h1 class="">
 Ever Present Living Style Guide
@@ -23,10 +20,10 @@ Putting your Living Style Guide in the browser makes it easily available to the 
 		<hr>
 		<section class="row">
 			<aside class="columns small-6 panel">
-vvvvvvvvv
+<p class="caption--p__architectsdaughter">Should I pretent</p>
 			</aside>
 			<aside class="columns small-6 panel">
-999999999
+<p class="caption--p__roboto">not to hear</p>
 			</aside>
 		</section>
 		<section id="sect_ftr">
@@ -46,6 +43,26 @@ vvvvvvvvv
 	</body>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.3/js/foundation/foundation.min.js" async></script>
+	<style>
+.caption--p__architectsdaughter{
+	font-family: "ArchitectsDaughter", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 1.1em;
+	font-weight: normal;
+	line-height: 1.5;
+	color: #000;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+.caption--p__roboto{
+	font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 1.4em;
+	font-weight: 500;
+	line-height: 1.5;
+	color: #702837;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+	</style>
 	<script>
 		$(document).ready(function(){
 			alert( $("body").html() );

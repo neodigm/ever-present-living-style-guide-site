@@ -12,7 +12,14 @@ Ever Present Living Style Guide &nbsp; <i class="fa fa-paper-plane color-text__w
 				</h1>
 			</header>
 		</section>
-<figure class="horz-spacer"></figure>		
+		<figure class="horz-spacer"></figure>
+		<section id="thank" class="row" style="display: none;">
+			<div class="columns small-12">
+				<p class="caption--p__roboto color-text__neos12 text-center">Thank You</p>
+				<p class="caption--p__opensans color-text__neos14">Your article suggestion has been received. It will soon be made available within the Living Style Guide.</p>
+				<hr>
+			</div>
+		</section>
 		<section class="row">
 			<aside class="columns small-12 medium-8">
 
@@ -103,9 +110,11 @@ The living style guide is a collection of design patterns, components, and guide
 				<a href="https://github.com/neodigm" target="_blank" title="GitHub"><img src="http://portfolio.neostudios.com/img/contact_github.png"></a>
 			</nav>
 		</section>
+
 	</body>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.3/js/foundation/foundation.min.js" async></script>
+	
 	<style>
 table {width: 100%;}
 hr { 
@@ -189,7 +198,11 @@ hr.jeweled {
 	</style>
 	<script>
 		$(document).ready(function(){
-
+			'use strict';
+			var sThank = location.search.split("thank=")[1];
+			if(sThank !== "undefined"){
+				$("#thank").css("display","block");
+			}
 		});
 	</script>
 </html>

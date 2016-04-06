@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+	<head>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.3/css/foundation.min.css" type="text/css" media="all" />
+		<link href='https://fonts.googleapis.com/css?family=Roboto+Slab|Architects+Daughter|Open+Sans' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css" type="text/css" media="all" />
+	</head>
+	<body>
+		<h1 id="js-caption--h1">document</h1>
+		<h2>Type static at the command line</h2>
+	</body>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.3/js/foundation/foundation.min.js" async></script>
+	<script>
+		$(document).ready(function(){
+			'use strict';
+//http://ign-apis.herokuapp.com/articles
+
+			alert( $("#js-caption--h1").html() );
+
+$.getJSON( "http://ign-apis.herokuapp.com/articles", {startIndex: "1", count: "20"})
+.done(function( data ) {
+	alert("datum | ");
+});
+
+
+		});
+	</script>
+</html>

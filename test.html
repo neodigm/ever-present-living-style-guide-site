@@ -18,9 +18,17 @@
 
 			alert( $("#js-caption--h1").html() );
 
-$.getJSON( "http://ign-apis.herokuapp.com/articles", {startIndex: "1", count: "20"})
-.done(function( data ) {
-	alert("datum | ");
+//$.getJSON( "http://ign-apis.herokuapp.com/articles", {startIndex: "1", count: "20"}).done(function( data ) {
+//	alert("datum | ");
+//});
+$.ajax({
+    url: "http://ign-apis.herokuapp.com/articles?startIndex=1&count=20",
+    crossDomain:true,
+    type:'get',
+    dataType:'json',
+    success: function(data) {    
+alert("data");
+    }
 });
 
 

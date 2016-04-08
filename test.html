@@ -22,6 +22,7 @@
 //$.getJSON( "http://ign-apis.herokuapp.com/articles", {startIndex: "1", count: "20"}).done(function( data ) {
 //	alert("datum | ");
 //});
+/*
 $.ajax({
     url: "http://ign-apis.herokuapp.com/articles?startIndex=1&count=20",
     crossDomain:true,
@@ -30,6 +31,10 @@ $.ajax({
     success: function(data) {    
 alert("data");
     }
+});
+*/
+$.getJSON('http://ign-apis.herokuapp.com/articles?startIndex=1&count=20&callback=?',function(data){
+alert(data);
 });
 
 

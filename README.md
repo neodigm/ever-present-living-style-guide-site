@@ -4,8 +4,6 @@
 # The 👁️ Living Style Guide 🍭
 Putting your Living Style Guide in the browser makes it easily available to the whole team. A Living Style Guide saves time, facilitates communication, and documents the visual language for both designers and developers.
 
----
-![](https://repository-images.githubusercontent.com/178555357/2b6ad880-7aa0-11ea-8dde-63e70187e3e9)
 #
 [Portfolio Blog](https://www.theScottKrause.com) |
 [🚀 Résumé](https://thescottkrause.com/Arcanus_Scott_C_Krause_2020.pdf) |

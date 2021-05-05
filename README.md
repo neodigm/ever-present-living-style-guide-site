@@ -23,6 +23,7 @@ Putting your Living Style Guide in the browser makes it easily available to the 
 [InfoSec](https://arcanus55.medium.com/offline-vs-cloud-password-managers-51b1fbebe301)
 #
 
+Three.js 🚀 TypeScript 🚀 WASM ✨ Go
 
 <p align="center">
   <a target="_blank" href="https://www.thescottkrause.com/d3_datavis_skills.html">

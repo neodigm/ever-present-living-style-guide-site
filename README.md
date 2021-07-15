@@ -23,10 +23,11 @@ Putting your Living Style Guide in the browser makes it easily available to the 
 [InfoSec](https://arcanus55.medium.com/offline-vs-cloud-password-managers-51b1fbebe301)
 #
 
-Three.js 🚀 TypeScript 🚀 WASM ✨ Go
 
+[![Open in Visual Studio Code](https://open.vscode.dev/badges/open-in-vscode.svg)](https://open.vscode.dev/neodigm/vivid_vector_alphabet)																	     
 <p align="center">
-  <a target="_blank" href="https://www.thescottkrause.com/d3_datavis_skills.html">
-  <img src="https://repository-images.githubusercontent.com/178555357/2b6ad880-7aa0-11ea-8dde-63e70187e3e9" title="D3js Skills with Audio 🪐">
-  </a>
+	<a target="_blank" href="https://www.thescottkrause.com">
+		<img src="https://neodigm.github.io/pan-fried-monkey-fisticuffs/thescottkrause_contact_card.png" title="Three.js 🚀 TypeScript 🍭 WASM ✨ Go">
+	</a>
 </p>
+

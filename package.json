@@ -26,7 +26,7 @@
   "license": "ISC",
   "dependencies": {
 "@machfivetechchicago/machvive-webmcp-ai": "^5.7.0",
-    "@angular/common": "^22.0.1",
+    "@angular/common": "^22.1.1",
     "@angular/compiler": "^10.1.6",
     "@angular/core": "^11.0.5",
     "@angular/forms": "^22.0.1",
